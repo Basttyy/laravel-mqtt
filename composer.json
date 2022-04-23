@@ -1,6 +1,6 @@
 {
-  "name": "php-mqtt/laravel-client",
-  "description": "A wrapper for the php-mqtt/client library for Laravel.",
+  "name": "basttyy/laravel-mqtt-client",
+  "description": "A wrapper for the basttyy/php-mqtt library for Laravel.",
   "type": "library",
   "keywords": [
     "mqtt",
@@ -9,12 +9,12 @@
     "subscribe",
     "laravel"
   ],
-  "homepage": "https://github.com/php-mqtt/laravel-client",
+  "homepage": "https://github.com/basttyy/laravel-mqtt",
   "license": "MIT",
   "authors": [
     {
-      "name": "Marvin Mall",
-      "email": "marvin-mall@msn.com",
+      "name": "Basttyy",
+      "email": "bastyydev@gmail.com",
       "role": "developer"
     }
   ],
@@ -22,7 +22,7 @@
     "php": "^7.4|^8.0",
     "illuminate/config": "~7.0|~8.0|~9.0",
     "illuminate/support": "~7.0|~8.0|~9.0",
-    "php-mqtt/client": "^1.0"
+    "basttyy/php-mqtt": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5"
